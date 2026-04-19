@@ -8,19 +8,47 @@ build/
 frontend/node_modules/
 frontend/dist/
 
-# .NET
+# .NET build output
 bin/
 obj/
+out/
+
+# Visual Studio
+.vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
 
 # Logs
 *.log
 
-# IDEs
-.vscode/
-.idea/
-
 # OS files
 .DS_Store
 Thumbs.db
+
+# EF Core local db files
+*.db
+*.db-shm
+*.db-wal
+
+# Test results
+TestResults/
+coverage/
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.temp
