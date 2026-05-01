@@ -28,6 +28,10 @@ namespace DineCloud.Infrastructure.Configurations
                    .IsRequired()
                    .HasMaxLength(150);
 
+            builder.Property(e => e.IsActive)
+               .IsRequired()
+               .HasDefaultValue(true);
+
             builder.Property(e => e.CreatedAt)
                    .IsRequired();
 
