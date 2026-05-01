@@ -11,6 +11,8 @@ namespace DineCloud.Domain.Entities
 
         public int RoleId { get; set; }
 
+        public bool IsActive { get; set; } = true;
+
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
